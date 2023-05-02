@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"example/hello/libs"
+	"fmt"
 )
 
 func main() {
@@ -14,6 +14,6 @@ func main() {
 		fmt.Println(err.Error())
 	}
 
-	fmt.Println(params)
+	fmt.Println(params.VKAppId)
 
 }
